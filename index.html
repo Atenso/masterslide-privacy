@@ -41,17 +41,17 @@
 <main>
 
 <h1>Privacy Policy</h1>
-<p class="sub">Masterslide: Museum Puzzle &middot; Last updated 21 October 2026</p>
+<p class="sub">Masterslide: Museum Puzzle &middot; Last updated 26 October 2026</p>
 <p class="lang"><a href="#tr">Türkçe</a></p>
 
 <p>Masterslide: Museum Puzzle is a sliding puzzle game for Android, developed by Atenso (AtensoStudio). This policy explains what the game stores, what goes over the internet, and how you can remove it.</p>
 
 <div class="card">
-<p><strong>The short version.</strong> Masterslide has no accounts and no sign-in. Your progress stays on your device; we do not have a server that receives it. The game downloads painting images from our file host, shows ads from Google AdMob, and sells optional in-game items through Google Play. We do not sell your data.</p>
+<p><strong>The short version.</strong> Masterslide works fully without an account. Unless you connect Google Play Games, your progress stays on your device. If you connect, a copy of your progress is also kept in the cloud (Google Firebase) so you can restore it, and you can delete that copy at any time. The game downloads painting images from our file host, shows ads from Google AdMob, and sells optional in-game items through Google Play. We do not sell your data.</p>
 </div>
 
-<h2>1. What stays on your device</h2>
-<p>The following is stored only on your device and is never sent to us or anyone else:</p>
+<h2>1. Without Play Games: what stays on your device</h2>
+<p>If you do not connect Google Play Games, the following is stored only on your device and is never sent to us or anyone else:</p>
 <ul>
   <li>Your level progress, stars, best results and statistics</li>
   <li>Coins, hearts, hints and other in-game items</li>
@@ -61,44 +61,55 @@
 </ul>
 <p>Uninstalling the app, or clearing its data in Android settings, removes all of this. If Android backup is turned on, Android may include this app data in the device backup kept in your Google account and restore it when you reinstall; you control this in your device's backup settings.</p>
 
-<h2>2. Painting downloads</h2>
+<h2>2. Google Play Games and cloud save (optional)</h2>
+<p>You can connect Google Play Games in the game's settings to keep your progress in the cloud, appear on leaderboards and unlock achievements. On many Android devices Play Games signs you in automatically; the game is fully playable if you do not connect. When you are connected:</p>
+<ul>
+  <li><strong>Play Games</strong> gives the game your Play Games player ID and display name. Your scores and achievements are kept by Google Play Games under its own terms.</li>
+  <li><strong>Firebase Authentication</strong> (Google) creates an account ID linked to your Play Games identity, so that only you can read your cloud save.</li>
+  <li><strong>Cloud Firestore</strong> (Google, stored in the European Union) keeps a copy of your game progress: levels, stars, best results, statistics, collection, coins, hearts and other items, the player name and avatar you chose, and the order numbers of purchases already added to your game. Your settings and the level you are currently playing stay on the device.</li>
+</ul>
+<p>This copy is used only to restore your progress and keep it in sync between your devices. It is not used for advertising and is not shared with anyone. Google processes it as our service provider; see <a href="https://firebase.google.com/support/privacy">Privacy and Security in Firebase</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<p>To delete it, open Settings &rarr; <em>Delete cloud save</em> in the game: your cloud save and your Firebase account are removed at once, and the progress on your device stays. You can also email us (see <a href="delete.html">data deletion</a>); we delete it within 30 days.</p>
+
+<h2>3. Painting downloads</h2>
 <p>Each level reveals a painting. The first 40 are inside the app; the others are downloaded when you get near them, from <code>atenso.github.io</code>, a website hosted by GitHub. The request asks only for the image file and contains nothing about your progress. Like any website, GitHub receives your IP address and basic device information (the browser engine's user agent) when the file is requested; see the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>. We do not receive these logs.</p>
 <p>All paintings are in the public domain or released under CC0. Their sources (mostly Wikimedia Commons and the Cleveland Museum of Art) are recorded in the game's catalog.</p>
 
-<h2>3. Advertising</h2>
-<p>Masterslide shows ads from Google AdMob, mainly rewarded ads you choose to watch (for example, to continue a level or double your coins). To show and measure ads, AdMob collects information such as your device's advertising ID, IP address, device and app information, and how you interact with ads. Google may use it to personalise ads unless you opt out. Learn more in <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
+<h2>4. Advertising</h2>
+<p>Masterslide shows ads from Google AdMob, mainly rewarded ads you choose to watch (for example, to continue a level or double your coins), and an ad between levels every few levels. Buying "No Ads" turns off the ads between levels. To show and measure ads, AdMob collects information such as your device's advertising ID, IP address, device and app information, and how you interact with ads. Google may use it to personalise ads unless you opt out. Learn more in <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
 <p>Where the law requires it (for example in the EEA, the UK and Switzerland), the app asks for your consent before personalised ads are shown. You can reset or delete your advertising ID at any time in your Android settings (Settings &rarr; Google &rarr; Ads, or Settings &rarr; Privacy &rarr; Ads, depending on your device).</p>
 
-<h2>4. In-game purchases</h2>
+<h2>5. In-game purchases</h2>
 <p>Optional purchases are handled entirely by Google Play. We never see your name, email address or payment details; Google tells the app only which item was bought, so it can be added to your game. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
-<h2>5. Who else can see your data</h2>
-<p>Only the services named above: GitHub for painting downloads, and Google for ads and purchases, each under its own privacy policy. We do not sell or rent data, and we do not share it with anyone else. Data is encrypted in transit. We may disclose information if we are legally required to do so.</p>
+<h2>6. Who else can see your data</h2>
+<p>Only the services named above: GitHub for painting downloads, and Google for ads, purchases, Play Games and Firebase (cloud save), each under its own privacy policy. We do not sell or rent data, and we do not share it with anyone else. Data is encrypted in transit. We may disclose information if we are legally required to do so.</p>
 
-<h2>6. Children</h2>
+<h2>7. Children</h2>
 <p>Masterslide is not directed at children under 13, and we do not knowingly collect personal information from them. If you believe a child has provided personal information through the app, contact us and we will help remove it.</p>
 
-<h2>7. Deleting your data</h2>
-<p>Because we keep no copy of your game data, deleting it is in your hands: uninstall the app, or open Android Settings &rarr; Apps &rarr; Masterslide &rarr; Storage &rarr; Clear data. For data held by Google (ads, purchases) or GitHub, use their privacy tools linked above.</p>
+<h2>8. Deleting your data</h2>
+<p><strong>On your device:</strong> uninstall the app, or open Android Settings &rarr; Apps &rarr; Masterslide &rarr; Storage &rarr; Clear data.</p>
+<p><strong>In the cloud (if you connected Play Games):</strong> in the game, open Settings &rarr; <em>Delete cloud save</em>, or email us as described on the <a href="delete.html">data deletion page</a>; we delete your cloud save and Firebase account within 30 days. For data held by Google (ads, purchases, your Play Games profile) or GitHub, use their privacy tools linked above.</p>
 
-<h2>8. Changes</h2>
+<h2>9. Changes</h2>
 <p>If this policy changes, we will update this page and the date at the top. Significant changes will also be mentioned in the app's release notes.</p>
 
-<h2>9. Contact</h2>
+<h2>10. Contact</h2>
 <p>Questions or requests: <a href="mailto:atensostudio@gmail.com">atensostudio@gmail.com</a></p>
 
 <section class="tr" id="tr" lang="tr">
 <h1>Gizlilik Politikası</h1>
-<p class="sub">Masterslide: Museum Puzzle &middot; Son güncelleme 21 Ekim 2026</p>
+<p class="sub">Masterslide: Museum Puzzle &middot; Son güncelleme 26 Ekim 2026</p>
 
 <p>Masterslide: Museum Puzzle, Atenso (AtensoStudio) tarafından geliştirilen bir Android sürgülü bulmaca oyunudur. Bu politika, oyunun neyi sakladığını, internet üzerinden neyin gittiğini ve bunları nasıl silebileceğinizi açıklar.</p>
 
 <div class="card">
-<p><strong>Kısaca.</strong> Masterslide'da hesap ve giriş yoktur. İlerlemeniz cihazınızda kalır; bunu alan bir sunucumuz yoktur. Oyun tablo görsellerini dosya sunucumuzdan indirir, Google AdMob reklamları gösterir ve isteğe bağlı oyun içi ürünleri Google Play üzerinden satar. Verilerinizi satmayız.</p>
+<p><strong>Kısaca.</strong> Masterslide hesap olmadan tamamen çalışır. Google Play Games'e bağlanmadıkça ilerlemeniz cihazınızda kalır. Bağlanırsanız ilerlemenizin bir kopyası, geri yükleyebilmeniz için bulutta (Google Firebase) da saklanır; bu kopyayı istediğiniz zaman silebilirsiniz. Oyun tablo görsellerini dosya sunucumuzdan indirir, Google AdMob reklamları gösterir ve isteğe bağlı oyun içi ürünleri Google Play üzerinden satar. Verilerinizi satmayız.</p>
 </div>
 
-<h2>1. Cihazınızda kalanlar</h2>
-<p>Aşağıdakiler yalnızca cihazınızda saklanır; bize ya da başka birine gönderilmez:</p>
+<h2>1. Play Games bağlantısı yoksa: cihazınızda kalanlar</h2>
+<p>Google Play Games'e bağlanmazsanız aşağıdakiler yalnızca cihazınızda saklanır; bize ya da başka birine gönderilmez:</p>
 <ul>
   <li>Bölüm ilerlemeniz, yıldızlarınız, en iyi sonuçlarınız ve istatistikleriniz</li>
   <li>Altın, kalp, ipucu ve diğer oyun içi öğeler</li>
@@ -108,30 +119,41 @@
 </ul>
 <p>Uygulamayı kaldırmak ya da Android ayarlarından verisini temizlemek bunların hepsini siler. Android yedeklemesi açıksa Android bu verileri Google hesabınızdaki cihaz yedeğine ekleyebilir ve yeniden kurulumda geri yükleyebilir; bunu cihazınızın yedekleme ayarlarından yönetirsiniz.</p>
 
-<h2>2. Tablo indirmeleri</h2>
+<h2>2. Google Play Games ve bulut kaydı (isteğe bağlı)</h2>
+<p>İlerlemenizi bulutta saklamak, sıralamalarda yer almak ve başarımları açmak için oyunun ayarlarından Google Play Games'e bağlanabilirsiniz. Birçok Android cihazda Play Games girişi kendiliğinden yapılır; bağlanmasanız da oyun tamamen oynanır. Bağlıyken:</p>
+<ul>
+  <li><strong>Play Games</strong> oyuna Play Games oyuncu kimliğinizi ve görünen adınızı verir. Puanlarınızı ve başarımlarınızı Google Play Games kendi koşullarıyla saklar.</li>
+  <li><strong>Firebase Authentication</strong> (Google), Play Games kimliğinize bağlı bir hesap kimliği oluşturur; böylece bulut kaydınızı yalnızca siz okuyabilirsiniz.</li>
+  <li><strong>Cloud Firestore</strong> (Google, Avrupa Birliği'nde saklanır) oyun ilerlemenizin bir kopyasını tutar: bölümler, yıldızlar, en iyi sonuçlar, istatistikler, koleksiyon, altın, kalp ve diğer öğeler, seçtiğiniz oyuncu adı ve avatar ile oyununuza eklenmiş satın almaların sipariş numaraları. Ayarlarınız ve o an oynadığınız bölüm cihazda kalır.</li>
+</ul>
+<p>Bu kopya yalnızca ilerlemenizi geri yüklemek ve cihazlarınız arasında eşitlemek için kullanılır. Reklam için kullanılmaz ve kimseyle paylaşılmaz. Google bunu hizmet sağlayıcımız olarak işler; bkz. <a href="https://firebase.google.com/support/privacy">Firebase'de Gizlilik ve Güvenlik</a> ve <a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a>.</p>
+<p>Silmek için oyunda Ayarlar &rarr; <em>Bulut kaydını sil</em> yolunu izleyin: bulut kaydınız ve Firebase hesabınız hemen silinir, cihazınızdaki ilerleme kalır. Bize e-postayla da yazabilirsiniz (bkz. <a href="delete.html#tr">veri silme</a>); 30 gün içinde sileriz.</p>
+
+<h2>3. Tablo indirmeleri</h2>
 <p>Her bölüm bir tablo açar. İlk 40 tablo uygulamanın içindedir; diğerleri sıraları yaklaştıkça GitHub'ın barındırdığı <code>atenso.github.io</code> adresinden indirilir. İstek yalnızca görsel dosyasını ister, ilerlemenizle ilgili bir şey içermez. Her web sitesinde olduğu gibi GitHub, dosya istendiğinde IP adresinizi ve temel cihaz bilgisini (tarayıcı motorunun kullanıcı aracısı) alır; bkz. <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Genel Gizlilik Bildirimi</a>. Bu kayıtlar bize ulaşmaz.</p>
 <p>Tabloların hepsi kamu malıdır ya da CC0 ile yayınlanmıştır. Kaynakları (çoğunlukla Wikimedia Commons ve Cleveland Sanat Müzesi) oyunun kataloğunda kayıtlıdır.</p>
 
-<h2>3. Reklamlar</h2>
-<p>Masterslide, Google AdMob reklamları gösterir; çoğunlukla sizin izlemeyi seçtiğiniz ödüllü reklamlardır (örneğin bir bölüme devam etmek ya da altınınızı ikiye katlamak için). AdMob, reklamları göstermek ve ölçmek için cihazınızın reklam kimliği, IP adresi, cihaz ve uygulama bilgisi ile reklamlarla etkileşiminiz gibi bilgileri toplar. Siz kapatmadıkça Google bunları kişiselleştirilmiş reklam için kullanabilir. Ayrıntılar: <a href="https://policies.google.com/technologies/partner-sites?hl=tr">Google, hizmetlerini kullanan site ve uygulamalardaki bilgileri nasıl kullanır</a>.</p>
+<h2>4. Reklamlar</h2>
+<p>Masterslide, Google AdMob reklamları gösterir; çoğunlukla sizin izlemeyi seçtiğiniz ödüllü reklamlardır (örneğin bir bölüme devam etmek ya da altınınızı ikiye katlamak için); ayrıca birkaç bölümde bir, bölüm arasında reklam gösterilir. "Reklamsız Oyna" satın alımı bölüm arası reklamları kapatır. AdMob, reklamları göstermek ve ölçmek için cihazınızın reklam kimliği, IP adresi, cihaz ve uygulama bilgisi ile reklamlarla etkileşiminiz gibi bilgileri toplar. Siz kapatmadıkça Google bunları kişiselleştirilmiş reklam için kullanabilir. Ayrıntılar: <a href="https://policies.google.com/technologies/partner-sites?hl=tr">Google, hizmetlerini kullanan site ve uygulamalardaki bilgileri nasıl kullanır</a>.</p>
 <p>Yasanın gerektirdiği yerlerde (örneğin AEA, Birleşik Krallık ve İsviçre) uygulama, kişiselleştirilmiş reklam göstermeden önce izninizi ister. Reklam kimliğinizi Android ayarlarından istediğiniz zaman sıfırlayabilir ya da silebilirsiniz (cihaza göre Ayarlar &rarr; Google &rarr; Reklamlar ya da Ayarlar &rarr; Gizlilik &rarr; Reklamlar).</p>
 
-<h2>4. Oyun içi satın almalar</h2>
+<h2>5. Oyun içi satın almalar</h2>
 <p>İsteğe bağlı satın almaları tamamen Google Play yürütür. Adınızı, e-posta adresinizi ya da ödeme bilgilerinizi hiçbir zaman görmeyiz; Google uygulamaya yalnızca hangi ürünün alındığını bildirir, böylece ürün oyununuza eklenir. Bkz. <a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a>.</p>
 
-<h2>5. Verilerinizi başka kimler görebilir</h2>
-<p>Yalnızca yukarıda adı geçen hizmetler: tablo indirmeleri için GitHub, reklam ve satın almalar için Google; her biri kendi gizlilik politikasıyla. Veri satmayız, kiralamayız ve başka kimseyle paylaşmayız. Veriler aktarım sırasında şifrelenir. Yasal olarak zorunlu olduğumuzda bilgi açıklayabiliriz.</p>
+<h2>6. Verilerinizi başka kimler görebilir</h2>
+<p>Yalnızca yukarıda adı geçen hizmetler: tablo indirmeleri için GitHub; reklam, satın alma, Play Games ve Firebase (bulut kaydı) için Google; her biri kendi gizlilik politikasıyla. Veri satmayız, kiralamayız ve başka kimseyle paylaşmayız. Veriler aktarım sırasında şifrelenir. Yasal olarak zorunlu olduğumuzda bilgi açıklayabiliriz.</p>
 
-<h2>6. Çocuklar</h2>
+<h2>7. Çocuklar</h2>
 <p>Masterslide 13 yaşından küçük çocuklara yönelik değildir ve onlardan bilerek kişisel bilgi toplamayız. Bir çocuğun uygulama üzerinden kişisel bilgi verdiğini düşünüyorsanız bize yazın, silinmesine yardım edelim.</p>
 
-<h2>7. Verilerinizi silmek</h2>
-<p>Oyun verilerinizin bir kopyasını tutmadığımız için silmek sizin elinizdedir: uygulamayı kaldırın ya da Android Ayarlar &rarr; Uygulamalar &rarr; Masterslide &rarr; Depolama &rarr; Verileri temizle yolunu izleyin. Google (reklam, satın alma) ya da GitHub'daki veriler için yukarıdaki bağlantılardaki gizlilik araçlarını kullanın.</p>
+<h2>8. Verilerinizi silmek</h2>
+<p><strong>Cihazınızda:</strong> uygulamayı kaldırın ya da Android Ayarlar &rarr; Uygulamalar &rarr; Masterslide &rarr; Depolama &rarr; Verileri temizle yolunu izleyin.</p>
+<p><strong>Bulutta (Play Games'e bağlandıysanız):</strong> oyunda Ayarlar &rarr; <em>Bulut kaydını sil</em> yolunu izleyin ya da <a href="delete.html#tr">veri silme sayfasında</a> anlatıldığı gibi bize e-posta gönderin; bulut kaydınızı ve Firebase hesabınızı 30 gün içinde sileriz. Google (reklam, satın alma, Play Games profiliniz) ya da GitHub'daki veriler için yukarıdaki bağlantılardaki gizlilik araçlarını kullanın.</p>
 
-<h2>8. Değişiklikler</h2>
+<h2>9. Değişiklikler</h2>
 <p>Bu politika değişirse bu sayfayı ve en üstteki tarihi güncelleriz. Önemli değişiklikleri uygulamanın sürüm notlarında da belirtiriz.</p>
 
-<h2>9. İletişim</h2>
+<h2>10. İletişim</h2>
 <p>Sorular ve istekler: <a href="mailto:atensostudio@gmail.com">atensostudio@gmail.com</a></p>
 </section>
 
